@@ -19,6 +19,12 @@ struct ContentView: View {
     }
 }
 
+struct Element: View {
+    var body: some View {
+        Text("")
+    }
+}
+
 #Preview {
     ContentView()
 }
