@@ -27,25 +27,25 @@ struct ElementModel: Identifiable, Codable, Hashable {
 }
 
 enum ElementCategory: String, Codable {
-    case metalloid = "Metalloid"
-    case nonmetal = "Non-Metal"
-    case alkaliMetal = "Alkali Metal"
-    case alkalineEarthMetal = "Alkaline Earth Metal"
-    case transitionMetal = "Transition Metal"
-    case postTransitionMetal = "Post-Transition Metal"
-    case halogen = "Halogen"
-    case nobleGas = "Noble Gas"
-    case lanthanide = "Lanthanide"
-    case actinide = "Actinide"
-    case unknown = "Unknown"
+    case metalloid = "metalloid"
+    case nonmetal = "nonmetal"
+    case alkaliMetal = "alkaliMetal"
+    case alkalineEarthMetal = "alkalineEarthMetal"
+    case transitionMetal = "transitionMetal"
+    case postTransitionMetal = "postTransitionMetal"
+    case halogen = "halogen"
+    case nobleGas = "nobleGas"
+    case lanthanide = "lanthanide"
+    case actinide = "actinide"
+    case unknown = "unknown"
 }
 
 enum Phase: String, Codable {
-    case solid = "Solid"
-    case liquid = "Liquid"
-    case gas = "Gas"
-    case plasma = "Plasma"
-    case unknown = "Unknown"
+    case solid = "solid"
+    case liquid = "liquid"
+    case gas = "gas"
+    case plasma = "plasma"
+    case unknown = "unknown"
 }
 
 let hydrogen = ElementModel(

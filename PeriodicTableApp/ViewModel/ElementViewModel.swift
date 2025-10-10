@@ -14,7 +14,7 @@ final class ElementStore: ObservableObject {
     private(set) var byAtomicNumber: [Int: ElementModel] = [:]
     private(set) var bySymbol: [String: ElementModel] = [:]
     
-    private init() {
+    init() {
         loadElements()
     }
     
